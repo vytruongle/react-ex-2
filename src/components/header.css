@@ -1,0 +1,15 @@
+.header {
+  position: absolute;
+  height: 90px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(3px);
+}
+
+.header-text {
+  line-height: 90px;
+  font-size: 22px;
+  font-weight: 500;
+}
