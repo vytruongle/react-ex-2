@@ -41,9 +41,9 @@
 
 .glass-image {
   position: absolute;
-  top: 103px;
-  left: 343px;
-  width: 12%;
+  top: 26%;
+  left: 20%;
+  width: 60%;
   filter: opacity(80%);
 }
 

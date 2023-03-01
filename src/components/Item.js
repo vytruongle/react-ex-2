@@ -118,13 +118,13 @@ export default class Item extends Component {
                   <h4 className="card-title">{this.state.name}</h4>
                   <p className="card-text">{this.state.desc}</p>
                 </div>
+                <img src={this.state.url} alt="" className="glass-image" />
               </div>
               <img
                 src="./glassesImage/model.jpg"
                 alt=""
                 className="image-model"
               />
-              <img src={this.state.url} alt="" className="glass-image" />
             </div>
             <div className="glasses">
               <div className="row p-5">{this.renderGlassesList()}</div>
